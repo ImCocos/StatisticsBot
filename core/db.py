@@ -119,9 +119,6 @@ class Message(peewee.Model):
         Meta info
         """
         database = db
-    
-    
-    async def create_from_message(self, msg: types.Message)
 
 
 def migrate() -> None:
